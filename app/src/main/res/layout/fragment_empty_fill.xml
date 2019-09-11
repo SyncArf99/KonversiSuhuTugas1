@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical" android:layout_width="match_parent"
+android:padding="15sp"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/alert"
+    android:textSize="15sp"
+    android:textStyle="normal|bold" />
+
+<Button
+    android:id="@+id/dialogButtonOK"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/image"
+    android:layout_alignStart="@+id/image"
+    android:layout_alignLeft="@+id/image"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="23dp"
+    android:paddingRight="5dp"
+    android:text="@string/dismiss"
+    android:textSize="18sp"
+    android:background="@color/colorPrimary"
+    tools:ignore="RtlHardcoded,RtlSymmetry" />
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_layout"
+        tools:context=".EmptyFill">
+
+    </FrameLayout>
+</LinearLayout>

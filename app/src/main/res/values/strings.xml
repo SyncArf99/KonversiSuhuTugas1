@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">About Us</string>
+    <string name="pilihan">pilihan</string>
+    <string name="masukkan_suhu">Masukkan suhu</string>
+    <string name="konversi_suhu">Konversi suhu</string>
+    <string name="celcius">Celcius</string>
+    <string name="reamur">Reamur</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert">Masukkan suhu awal, default suhu awal = 0 jika tidak dimasukkan suhu awal !</string>
+    <string name="dismiss">ok</string>
+</resources>
